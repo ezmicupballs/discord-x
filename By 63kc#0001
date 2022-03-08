@@ -1,0 +1,390 @@
+-- By Ryan <3
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("ScrollingFrame")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local dimag = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local speed = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local korblox = Instance.new("TextButton")
+local faded = Instance.new("TextButton")
+local loras = Instance.new("TextButton")
+local mode = Instance.new("TextButton")
+local server = Instance.new("TextButton")
+local changer = Instance.new("TextButton")
+local kool = Instance.new("TextButton")
+local ware = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+main.Position = UDim2.new(0.139071554, 0, 0.0346232206, 0)
+main.Size = UDim2.new(0, 762, 0, 456)
+main.Active = true
+main.Draggable = true
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Frame.Position = UDim2.new(0, 0, -0.000491108221, 0)
+Frame.Size = UDim2.new(0, 754, 0, 43)
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextBox.Position = UDim2.new(0.159779608, 0, 0.162790701, 0)
+TextBox.Size = UDim2.new(0, 533, 0, 28)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "https://discord.com/channels/@me"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 116, 0, 43)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Discord X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 17.000
+
+UICorner.Parent = TextLabel
+
+UICorner_2.Parent = Frame
+
+Frame_2.Parent = main
+Frame_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame_2.Position = UDim2.new(0, 0, 0.0417862721, 0)
+Frame_2.Size = UDim2.new(0, 102, 0, 425)
+
+ImageLabel.Parent = Frame_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.205882356, 0, 0.0185822099, 0)
+ImageLabel.Size = UDim2.new(0, 59, 0, 53)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=8391166883"
+
+UICorner_3.Parent = ImageLabel
+
+UICorner_4.Parent = Frame_2
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0490196086, 0, 0.141176462, 0)
+TextLabel_2.Size = UDim2.new(0, 91, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Credits:"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0490196086, 0, 0.258823514, 0)
+TextLabel_3.Size = UDim2.new(0, 91, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Scripted by Hitler"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0490196086, 0, 0.3952941, 0)
+TextLabel_4.Size = UDim2.new(0, 91, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Scripts made by Dimag 16"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Frame_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0980392173, 0, 0.512941182, 0)
+TextLabel_5.Size = UDim2.new(0, 86, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "ideas by sneary"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Frame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0490196086, 0, 0.630588233, 0)
+TextLabel_6.Size = UDim2.new(0, 86, 0, 88)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Version: V2.0"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Frame_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(3.80392146, 0, 0.611764729, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.GothamBlack
+TextLabel_7.Text = "B to close J to open"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 25.000
+
+dimag.Name = "dimag"
+dimag.Parent = main
+dimag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dimag.BackgroundTransparency = 1.000
+dimag.Position = UDim2.new(0.174540684, 0, 0.154321328, 0)
+dimag.Size = UDim2.new(0, 147, 0, 33)
+dimag.ZIndex = 0
+dimag.Font = Enum.Font.SourceSans
+dimag.Text = "Dimag X"
+dimag.TextColor3 = Color3.fromRGB(255, 255, 255)
+dimag.TextSize = 25.000
+dimag.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+ImageLabel_2.Parent = main
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.Position = UDim2.new(0, 0, 0.889813662, 0)
+ImageLabel_2.Size = UDim2.new(0, 153, 0, 108)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=8546447448"
+
+TextLabel_8.Parent = main
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.43832019, 0, 0.0410324372, 0)
+TextLabel_8.Size = UDim2.new(0, 153, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Welcome Enjoy The script"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 22.000
+
+TextLabel_9.Parent = main
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.263779521, 0, 0.931771934, 0)
+TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_9.Font = Enum.Font.GothamSemibold
+TextLabel_9.Text = "In god we trust rip hitler"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 25.000
+
+speed.Name = "speed"
+speed.Parent = main
+speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+speed.BackgroundTransparency = 1.000
+speed.Position = UDim2.new(0.174540669, 0, 0.206359088, 0)
+speed.Size = UDim2.new(0, 147, 0, 50)
+speed.Font = Enum.Font.SourceSans
+speed.Text = "Speed X"
+speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+speed.TextSize = 25.000
+speed.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ezmicupballs/speed-x-v.1/main/By%20%D0%9F%D1%80%D0%B8%D0%B7%D1%80%D0%B0%D0%BA%20%D0%9A%D0%B8%D0%B5%D0%B2%D0%B0%230001", true))()
+end)
+
+TextLabel_10.Parent = main
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.703412116, 0, 0.0916496962, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Player:"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 25.000
+
+TextLabel_11.Parent = main
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.152230978, 0, 0.0916496962, 0)
+TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Other:"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 25.000
+
+korblox.Name = "korblox"
+korblox.Parent = main
+korblox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+korblox.BackgroundTransparency = 1.000
+korblox.Position = UDim2.new(0.728346407, 0, 0.152865604, 0)
+korblox.Size = UDim2.new(0, 147, 0, 50)
+korblox.Font = Enum.Font.SourceSans
+korblox.Text = "Korblox & Headless (client)"
+korblox.TextColor3 = Color3.fromRGB(255, 255, 255)
+korblox.TextSize = 25.000
+korblox.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+		if (v:IsA("Decal")) then
+			v.Transparency = 1
+		end
+	end
+
+	local ply = game.Players.LocalPlayer
+	local chr = ply.Character
+	chr.RightLowerLeg.MeshId = "902942093"
+	chr.RightLowerLeg.Transparency = "1"
+	chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+	chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+	chr.RightFoot.MeshId = "902942089"
+	chr.RightFoot.Transparency = "1"
+end)
+
+faded.Name = "faded"
+faded.Parent = main
+faded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+faded.BackgroundTransparency = 1.000
+faded.Position = UDim2.new(0.174540684, 0, 0.256297559, 0)
+faded.Size = UDim2.new(0, 154, 0, 50)
+faded.Font = Enum.Font.SourceSans
+faded.Text = "Faded"
+faded.TextColor3 = Color3.fromRGB(255, 255, 255)
+faded.TextSize = 25.000
+faded.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))() 
+end)
+
+loras.Name = "loras"
+loras.Parent = main
+loras.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+loras.BackgroundTransparency = 1.000
+loras.Position = UDim2.new(0.182414681, 0, 0.32364136, 0)
+loras.Size = UDim2.new(0, 154, 0, 50)
+loras.Font = Enum.Font.SourceSans
+loras.Text = "Lora x"
+loras.TextColor3 = Color3.fromRGB(255, 255, 255)
+loras.TextSize = 25.000
+loras.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HogRider123/Lora-X/main/Lora%20X%20Main%20Loader%20Cus%20Epik", true))() 
+end)
+
+mode.Name = "mode"
+mode.Parent = main
+mode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mode.BackgroundTransparency = 1.000
+mode.Position = UDim2.new(0.182414681, 0, 0.383387774, 0)
+mode.Size = UDim2.new(0, 154, 0, 50)
+mode.Font = Enum.Font.SourceSans
+mode.Text = "Swag Mode"
+mode.TextColor3 = Color3.fromRGB(255, 255, 255)
+mode.TextSize = 25.000
+mode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))() 
+end)
+
+server.Name = "server"
+server.Parent = main
+server.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+server.BackgroundTransparency = 1.000
+server.Position = UDim2.new(0.182414696, 0, 0.447547078, 0)
+server.Size = UDim2.new(0, 154, 0, 50)
+server.Font = Enum.Font.SourceSans
+server.Text = "Crash Server"
+server.TextColor3 = Color3.fromRGB(255, 255, 255)
+server.TextSize = 25.000
+server.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+changer.Name = "changer"
+changer.Parent = main
+changer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+changer.BackgroundTransparency = 1.000
+changer.Position = UDim2.new(0.715223074, 0, 0.21275948, 0)
+changer.Size = UDim2.new(0, 165, 0, 50)
+changer.Font = Enum.Font.SourceSans
+changer.Text = "Animation Changer"
+changer.TextColor3 = Color3.fromRGB(255, 255, 255)
+changer.TextSize = 25.000
+changer.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HogRider123/Animation-Changer-Pro/main/Loader%20Cus%20Epik%20Pro", true))() 
+end)
+
+kool.Name = "kool"
+kool.Parent = main
+kool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kool.BackgroundTransparency = 1.000
+kool.Position = UDim2.new(0.182414696, 0, 0.508311868, 0)
+kool.Size = UDim2.new(0, 159, 0, 50)
+kool.Font = Enum.Font.SourceSans
+kool.Text = "Kool"
+kool.TextColor3 = Color3.fromRGB(255, 255, 255)
+kool.TextSize = 25.000
+kool.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/KillerHood/scripting/main/k00lboy'))()
+end)
+
+ware.Name = "ware"
+ware.Parent = main
+ware.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ware.BackgroundTransparency = 1.000
+ware.Position = UDim2.new(0.182414696, 0, 0.568558574, 0)
+ware.Size = UDim2.new(0, 159, 0, 50)
+ware.Font = Enum.Font.SourceSans
+ware.Text = "Space Ware"
+ware.TextColor3 = Color3.fromRGB(255, 255, 255)
+ware.TextSize = 25.000
+ware.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Maxiiiiiiiiiiiiiiiiiiiiiii/spaceware/main/spaceware'))()
+end)
+
+-- Scripts:
+
+local function YLYBSVN_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "j" then
+			script.Parent.Visible = true
+		end
+	end)
+	
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "b" then
+			script.Parent.Visible = false
+		end
+	end)
+end
+coroutine.wrap(YLYBSVN_fake_script)()
